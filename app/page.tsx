@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import SquigglyLines from "../components/SquigglyLines";
+import Footer from "../components/layout/Footer";
+import Header from "../components/layout/Header";
+import SquigglyLines from "../components/ui/SquigglyLines";
 
 export default function HomePage() {
   return (

@@ -6,15 +6,15 @@ import { useState } from "react";
 import { UrlBuilder } from "@bytescale/sdk";
 import { UploadWidgetConfig } from "@bytescale/upload-widget";
 import { UploadDropzone } from "@bytescale/upload-widget-react";
-import { CompareSlider } from "../../components/CompareSlider";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
-import LoadingDots from "../../components/LoadingDots";
-import ResizablePanel from "../../components/ResizablePanel";
-import Toggle from "../../components/Toggle";
+import { CompareSlider } from "../../components/ui/CompareSlider";
+import Footer from "../../components/layout/Footer";
+import Header from "../../components/layout/Header";
+import LoadingDots from "../../components/ui/LoadingDots";
+import ResizablePanel from "../../components/layout/ResizablePanel";
+import Toggle from "../../components/ui/Toggle";
 import appendNewToName from "../../utils/appendNewToName";
 import downloadPhoto from "../../utils/downloadPhoto";
-import DropDown from "../../components/DropDown";
+import DropDown from "../../components/ui/DropDown";
 import { roomType, rooms, themeType, themes } from "../../utils/dropdownTypes";
 
 const options: UploadWidgetConfig = {
